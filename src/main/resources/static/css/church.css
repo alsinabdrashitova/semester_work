@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-weight:700;
+}
+.btn {
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-weight:700;
+	text-transform:uppercase;
+}
+.btn-primary {
+	color: #483f34;
+	background-color: #ffc55f;
+	border-color: #e7ad47;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+	color: #483f34;
+	background-color: #fdbf51;
+	border-color: #e7ad47;
+}
+.navbar-nav {
+	margin: 25px 0;
+}
+.subpage-head {
+	background-color:#f9f1e6;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+.subpage-head h3 {
+	color:#53504c;
+}
+@media (min-width:992px) {
+	.subpage-head {
+		padding-top: 110px;
+	}
+}
